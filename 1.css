@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-right: 10px;
+  }
+
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: lightgray;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+    width: 60%;
+    margin: 20px auto;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+  }
+
+  .delete-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
